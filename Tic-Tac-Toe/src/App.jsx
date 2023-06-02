@@ -37,7 +37,7 @@ function App() {
     for (const comb in WINS_COMBOS) {
       const [a, b, c] = comb
 
-      if (boardCheck[a] && boardCheck[a] === boardCheck[b] && boardCheck[b] === boardCheck[c]) {
+      if (boardCheck[a] && boardCheck[a] === boardCheck[b] && boardCheck[a] === boardCheck[c]) {
         return boardCheck[a]
       }
 
