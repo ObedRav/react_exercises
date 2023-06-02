@@ -4,7 +4,6 @@ const TURNS = {
   X: 'x',
   O: 'o'
 }
-
 const Square = ({ children, isSelected, updateBoard, index }) => {
   const className = `square ${isSelected ? 'is-selected' : ''}`
   const handleClick = () => {
